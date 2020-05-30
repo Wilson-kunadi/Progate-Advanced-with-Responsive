@@ -1,0 +1,64 @@
+@media all and (max-width: 840px){
+  .banner-msg h1{
+    font-size: 35px;
+  }
+
+  .lessons-tables{
+    flex-wrap: wrap;
+  }
+
+  .lesson{
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 570px){
+  .banner-msg h1{
+    font-size: 30px;
+  }
+
+  .btn-cta, .header-nav-list{
+    display: none;
+  }
+
+  .menu-icon{
+    display: block;
+    font-size: 32px;
+  }
+}
+
+
+@media all and (max-width: 508px){
+  .banner-msg h1{
+    font-size: 25px;
+  }
+
+  .banner-msg p{
+    font-size: 14px;
+  }
+
+  .btn{
+    display: block;
+    width: 100%;
+  }
+
+  .facebook{
+    margin-bottom: 10px;
+  }
+
+  footer{
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 420px){
+  .lessons-tables{
+    flex-direction: column;
+  }
+
+  .lesson{
+    width: 100%;
+  }
+
+
+}
