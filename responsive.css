@@ -29,8 +29,12 @@
 
 
 @media all and (max-width: 508px){
+  .banner-msg{
+    text-align: left;
+  }
+
   .banner-msg h1{
-    font-size: 25px;
+    font-size: 26px;
   }
 
   .banner-msg p{
@@ -52,6 +56,11 @@
 }
 
 @media all and (max-width: 420px){
+  .banner-msg h1{
+    font-size: 20px;
+  }
+
+
   .lessons-tables{
     flex-direction: column;
   }
@@ -59,6 +68,14 @@
   .lesson{
     width: 100%;
   }
+}
 
+@media all and (max-width: 320px){
+  .banner-msg h1{
+    font-size: 18px;
+  }
 
+  .banner-msg p{
+    font-size: 12px;
+  }
 }
